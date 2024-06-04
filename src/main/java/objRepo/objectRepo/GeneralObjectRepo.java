@@ -15,6 +15,7 @@ public class GeneralObjectRepo extends BaseFile {
     public static By mapView= By.xpath("(//*[@class='img img-fluid'])[1]");
     public static By tableView= By.xpath("(//*[@class='img img-fluid'])[2]");
     public static By globalSearch= By.xpath("(//*[@class='img img-fluid'])[3]");
+    public static By gSearchbtn= By.xpath("//*[contains(text(),'Search')]");
     public static By localSearch= By.xpath("//*[@name='search']");
 
     public static By logOutUser= By.xpath("//*[@id='bd-versions']");
