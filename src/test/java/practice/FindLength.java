@@ -1,3 +1,5 @@
+package practice;
+
 public class FindLength {
     public static void main(String[] args) {
 

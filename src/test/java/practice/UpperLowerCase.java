@@ -1,3 +1,5 @@
+package practice;
+
 public class UpperLowerCase {
     public static void main(String[] args) {
         String s="sai kumar Lingampally.";

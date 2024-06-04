@@ -18,7 +18,7 @@ public class BaseFile {
 
         public BaseFile(){
             try{
-                String confit="./config/config.properties";
+                String confit="/home/thrymr/Projects/SaiKumar_Lingampally/Auto/TetraPak/src/config/config.properties";
                 FileInputStream file= new FileInputStream(confit);
                 prop.load(file);
             }catch (FileNotFoundException e){
@@ -41,17 +41,9 @@ public class BaseFile {
             ChromeOptions options = new ChromeOptions();
             driver.manage().window().maximize();
             driver.get(prop.getProperty("url"));
+
         }
-
-
-
-
-
-
-
-
-
-    }
+}
 
 
 

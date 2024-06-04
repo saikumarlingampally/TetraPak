@@ -1,3 +1,5 @@
+package practice;
+
 public class EqualsCase {
     public static void main(String[] args) {
         String s="kumar";
