@@ -1,8 +1,9 @@
 package objRepo.objectRepo.Users;
 
+import base.BaseFile;
 import org.openqa.selenium.By;
 
-import java.Base.BaseFile;
+
 
 public class Userss extends BaseFile {
     public static By subAdmin= By.xpath("//a[contains(text(),' Sub Admin')]");
