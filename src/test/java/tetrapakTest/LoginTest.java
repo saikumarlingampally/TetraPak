@@ -19,10 +19,10 @@ public class LoginTest extends BaseFile {
 
         driver.findElement(LoginobjectRepo.userName).sendKeys(Uname);
         driver.findElement(LoginobjectRepo.password).sendKeys(password);
-//        WebElement mainCap = driver.findElement(LoginobjectRepo.capcha);
-//        WebElement sendCap = driver.findElement(LoginobjectRepo.Ent_captch);
-//
-//        sendCap.sendKeys(mainCap.getText().replace(" ", ""));
+        WebElement mainCap = driver.findElement(LoginobjectRepo.capcha);
+        WebElement sendCap = driver.findElement(LoginobjectRepo.Ent_captch);
+
+        sendCap.sendKeys(mainCap.getText().replace(" ", ""));
 
         driver.findElement(LoginobjectRepo.submit).click();
         Thread.sleep(3000);
