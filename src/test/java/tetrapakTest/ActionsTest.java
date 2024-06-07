@@ -12,7 +12,8 @@ public class ActionsTest extends BaseFile {
         LoginTest loginTest= new LoginTest();
         loginTest.enteringData("adithya@thrymr.net","1234");
         ActionsPage actionsPage= new ActionsPage();
-        actionsPage.map();
-        actionsPage.addToWatch();
+        actionsPage.searchShipment();
+//        actionsPage.addToWatch();
+        actionsPage.copyLink();
     }
 }

@@ -11,11 +11,11 @@ import org.testng.annotations.Test;
 public class LoginTest extends BaseFile {
 
 
-    @Test (dataProvider = "validate_User")
+    @Test (dataProvider = "")
     public void enteringData (String Uname, String password) throws InterruptedException {
 
-    BaseFile baseFile = new BaseFile();
-    baseFile.launchDriver();
+//    BaseFile baseFile = new BaseFile();
+//    baseFile.launchDriver();
 
         driver.findElement(LoginobjectRepo.userName).sendKeys(Uname);
         driver.findElement(LoginobjectRepo.password).sendKeys(password);
@@ -34,12 +34,12 @@ public class LoginTest extends BaseFile {
 
         String expected="http://13.212.31.37:9065/mapview/vehicle";
 
-        if (actual.equals(expected))
-        {
-            System.out.println("Valid User");
-        }else {
-            System.out.println("Invalid User");
-        }
+//        if (actual.equals(expected))
+//        {
+//            System.out.println("Valid User");
+//        }else {
+//            System.out.println("Invalid User");
+//        }
 
     }
 

@@ -5,10 +5,13 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 
 public class UtilityFile extends BaseFile{
 
@@ -31,8 +34,9 @@ public class UtilityFile extends BaseFile{
             actions.moveToElement(element);
         }
 
-        public void waitelement(){
-//            WebDriverWait wait= new WebDriverWait();
+        public void waitElement(WebDriver driver, WebElement element) {
+
+
 
         }
 

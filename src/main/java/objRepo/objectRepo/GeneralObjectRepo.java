@@ -22,10 +22,14 @@ public class GeneralObjectRepo extends BaseFile {
     public static By createGeo= By.xpath("//*[contains(text(),'Create Geofence')]");
     public static By userSettings= By.xpath("//*[contains(text(),'User Settings')]");
     public static By KpiReports= By.xpath("//*[contains(text(),'KPI Reports')]");
+    public static By clearFilter= By.xpath("//*[contains(text(),'Clear Filter')]");
+
+
 
 
     public static By localSearch= By.xpath("//*[@name='search']");
 
     public static By logOutUser= By.xpath("//*[@id='bd-versions']");
     public static By logOutbtn= By.xpath(" //*[contains(text(),'Logout')]");
+
 }
